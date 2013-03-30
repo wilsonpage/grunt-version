@@ -1,0 +1,36 @@
+{
+  "name": "grunt-version",
+  "description": "Updates versions for json, jsdoc and js variables in one go",
+  "version": "0.1.0",
+  "homepage": "https://github.com/wilsonpage/grunt-version",
+  "author": {
+    "name": "Wilson Page"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wilsonpage/grunt-version.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wilsonpage/grunt-version/issues"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "dependencies": {
+    "dox": "~0.4.3",
+    "hogan.js": "~2.0.0"
+  },
+  "devDependencies": {},
+  "peerDependencies": {
+    "grunt": "~0.4.0"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "contributors": [
+    {
+      "name": "Wilson Page"
+    }
+  ],
+  "readmeFilename": "README.md"
+}
