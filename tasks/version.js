@@ -21,13 +21,11 @@ var regex = {
 
 module.exports = function (grunt) {
 
-	grunt.registerMultiTask('version', function(arg) {
-		var version = grunt.version;
-		var set = grunt.option('set');
+	grunt.registerMultiTask('version', function() {
+		var pkg = grunt.config.data.pkg;
+		var version = grunt.option('set');
 
-		if (!set) return console.log(version);
-
-		version = set;
+		if (!version) return console.log(pkg.version);
 
 		this.files.forEach(function(file) {
 			file.src.forEach(function(file) {
